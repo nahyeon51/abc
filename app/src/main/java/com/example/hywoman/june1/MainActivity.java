@@ -30,16 +30,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button mBtn1 = (Button)findViewById(R.id.button111);
+        Button mBtn1 = (Button) findViewById(R.id.button111);
 
-        mBtn1.setOnClickListener(new View.OnClickListener(){
+        mBtn1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent ticket = new Intent( MainActivity.this,Main2Activity.class);
-                startActivity( ticket);
-            }
-                                 }
-
+                public void onClick(View v) {
+                Intent ticket = new Intent(MainActivity.this, Main2Activity.class);
+                startActivity(ticket);
+            }}
         );
     }
 
